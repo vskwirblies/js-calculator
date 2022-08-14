@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="calculator">
+            <p class="outputfield"></p>
+            <div class="buttons">
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('7')">7</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('8')">8</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('9')">9</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('/')">/</button>
+                <br>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('4')">4</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('5')">5</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('6')">6</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('*')">*</button>
+                <br>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('1')">1</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('2')">2</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('3')">3</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('-')">-</button>
+                <br>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('0')">0</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput(',')">,</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('=')">=</button>
+                <button class="inputbutton" onclick="calculatorIODevice.clickInput('+')">+</button>
+                <br>
+                <button class="inputbutton clear" onclick="calculatorIODevice.clickClear()">clear</button>
+            </div>
+        </div>
+    </main>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
